@@ -1,0 +1,3 @@
+
+- pemisah koma (,)
+- gunakan label KELAS dan TEKS

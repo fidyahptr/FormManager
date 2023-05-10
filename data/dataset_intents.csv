@@ -1,0 +1,810 @@
+KELAS,TEKS
+sapa,halo
+sapa,halo kak
+sapa,halo min
+sapa,halo sis
+sapa,hai
+sapa,hai kak
+sapa,hai min
+sapa,hai sis
+sapa,halo gan
+sapa,halo bestie
+sapa,hey
+sapa,hay
+sapa,pagi
+sapa,siang
+sapa,sore
+sapa,malam
+sapa,selamat pagi
+sapa,selamat siang
+sapa,selamat sore
+sapa,selamat malam
+sapa,apa kabar
+sapa,hello
+sapa,ap kabar
+sapa,ap kbr
+sapa,loha
+sapa,haii
+sapa,haloo
+sapa,p
+sapa,ping
+sapa,tok tok
+sapa,hoii
+sapa,woi
+sapa,woii
+sapa,woy
+sapa,woyy
+sapa,oi
+sapa,oii
+sapa,oy
+sapa,oyy
+sapa,hei
+sapa,heii
+sapa,hey
+sapa,heyy
+sapa,halo apa kabar kak
+sapa,halo apa kabar
+sapa,halo apa kabar min
+sapa,halo apa kabar gan
+sapa,hi
+sapa,hola
+sapa,annyeong
+sapa,heyo
+sapa,haiii
+sapa,halooo
+sapa,pagiii
+sapa,met pagi
+sapa,met siang
+sapa,met malam
+sapa,met sore
+sapa,hallo
+sapa,halloo
+sapa,halloooo
+sapa,halo
+sapa,heeey
+sapa,hello
+sapa,pagi kak
+sapa,siang kak
+sapa,sore kak
+sapa,malam kak
+salam_perpisahan,bye
+salam_perpisahan,goodbye
+salam_perpisahan,good bye
+salam_perpisahan,dah
+salam_perpisahan,dadah
+salam_perpisahan,sampai jumpa lain kali
+salam_perpisahan,selamat tinggal
+salam_perpisahan,sampai jumpa
+salam_perpisahan,sampai jumpa lagi
+salam_perpisahan,sampai nanti
+salam_perpisahan,jumpa lagi
+salam_perpisahan,sampai ketemu lagi
+salam_perpisahan,senang bicara denganmu
+salam_perpisahan,sampai berjumpa
+salam_perpisahan,sampai berjumpa lagi
+salam_perpisahan,sampai ketemu besok
+salam_perpisahan,babay
+salam_perpisahan,dahh
+salam_perpisahan,dah kak
+salam_perpisahan,dah min
+salam_perpisahan,dah gan
+salam_perpisahan,dadahh
+salam_perpisahan,dah bg
+salam_perpisahan,dah bang
+salam_perpisahan,by4
+salam_perpisahan,byee
+salam_perpisahan,sampai berjumpa lagi besok
+salam_perpisahan,sampai ketemu lagi besok
+salam_perpisahan,sampai ketemu nanti ya
+salam_perpisahan,byee kak
+salam_perpisahan,bye kak
+salam_perpisahan,bye min
+tanya_pesan,saya ingin pesan sekarang
+tanya_pesan,saya ingin pesan sekarang kak
+tanya_pesan,saya ingin pesan sekarang min
+tanya_pesan,saya mau pesan sekarang
+tanya_pesan,saya mau pesan sekarang kak
+tanya_pesan,saya mau pesan sekarang min
+tanya_pesan,saya mau beli barang
+tanya_pesan,saya mau beli
+tanya_pesan,bisa beli sekarang
+tanya_pesan,mau beli kak
+tanya_pesan,mau beli dong kak
+tanya_pesan,saya mau pesan kak
+tanya_pesan,saya mau pesan min
+tanya_pesan,saya mau beli kak
+tanya_pesan,saya mau beli min
+tanya_pesan,mo beli kak
+tanya_pesan,mo pesan kak
+tanya_pesan,aku mau beli sekarang
+tanya_pesan,aku mau beli
+tanya_pesan,aku mo beli
+tanya_pesan,pesan ini sekarang
+tanya_pesan,aku mau pesan
+tanya_pesan,beli laptop ini 
+tanya_pesan,saya mau beli laptopnya
+tanya_pesan,pesan produk ini dong
+tanya_pesan,saya pesan laptop ini
+tanya_pesan,saya mau beli laptop ini
+tanya_pesan,saya mau beli produk ini
+tanya_pesan,saya ingin pesan produk ini 
+tanya_pesan,mau laptop ini kak
+tanya_pesan,mau laptop ini dong
+tanya_pesan,mau barang ini min
+tanya_pesan,mau produk ini kak
+tanya_pesan,mau barang ini dong kak
+tanya_pesan,mau pesen yang ini dong
+tanya_pesan,mau pesen yang ini kak
+tanya_pesan,mau pesen yang ini min
+tanya_pesan,mw beli ini kak
+tanya_pesan,mw beli ini min
+tanya_pesan,mw pesen dong
+tanya_pesan,mw pesen dongs
+tanya_pesan,mw pesen dongz
+tanya_pesan,bisa pesan sekarang
+tanya_pesan,bisa pesan skrng
+tanya_pesan,saya ingin pesan skrng
+tanya_pesan,saya ingin pesan skrng kak
+tanya_pesan,saya ingin pesan skrng min
+tanya_pesan,saya mau pesan skrng
+tanya_pesan,saya mau pesan skrng kak
+tanya_pesan,saya mau pesan skrng min
+tanya_pesan,aku ingin pesan sekarang
+tanya_pesan,aku ingin pesan sekarang kak
+tanya_pesan,aku ingin pesan sekarang min
+tanya_pesan,aku mau pesan sekarang
+tanya_pesan,aku mau pesan sekarang kak
+tanya_pesan,aku mau pesan sekarang min
+tanya_pesan,aku mau beli barang
+tanya_pesan,aku mau beli
+tanya_pesan,gw mau beli
+tanya_pesan,gua mau beli
+tanya_pesan,gue mau beli
+tanya_pesan,w mau beli
+tanya_pesan,pesan sekarang bisa
+tanya_pesan,boleh pesan sekarang
+tanya_rekomendasi,produk terlaris
+tanya_rekomendasi,produk terlaris yang mana kak
+tanya_rekomendasi,rekomendasi produk terlaris kak
+tanya_rekomendasi,barang terlaris
+tanya_rekomendasi,bestseller yang mana
+tanya_rekomendasi,harga termurah yang mana ya kak
+tanya_rekomendasi,harga termahal yang mana ya kak
+tanya_rekomendasi,laptop termahal
+tanya_rekomendasi,laptop termurah
+tanya_rekomendasi,yang paling recommended apa ya kak
+tanya_rekomendasi,harga laptop paling mahal
+tanya_rekomendasi,harga laptop termahal
+tanya_rekomendasi,harga laptop paling murah
+tanya_rekomendasi,harga laptop termurah
+tanya_rekomendasi,yang paling mahal yang mana ya kak
+tanya_rekomendasi,yang paling murah yang mana ya kak
+tanya_rekomendasi,rekomendasi laptop
+tanya_rekomendasi,rekomen laptop
+tanya_rekomendasi,mana yang paling rekomen
+tanya_rekomendasi,laptop paling bagus yang mana
+tanya_rekomendasi,yang mana paling rekomen
+tanya_rekomendasi,rekomen beli yang mana
+tanya_rekomendasi,info laptop bagus
+tanya_rekomendasi,p info laptop
+tanya_rekomendasi,info laptop keren
+tanya_rekomendasi,kak boleh ga minta rekomendasi laptop bagus
+tanya_rekomendasi,minta rekomendasi laptop murah tapi bagus kak
+tanya_rekomendasi,mau dong rekomendasi laptop yang keren
+tanya_rekomendasi,rekomen laptop terbaik
+tanya_rekomendasi,ingfo laptop
+tanya_rekomendasi,mau dong rekomendasi laptop yang bagus
+tanya_rekomendasi,rekomendasiin laptop murah kak
+tanya_rekomendasi,rekomendasiin laptop murah min
+tanya_rekomendasi,rekomendasiin laptop murah bang
+tanya_rekomendasi,rekomendasiin laptop murah bg
+tanya_rekomendasi,rekomen laptop bagus
+tanya_rekomendasi,cari laptop bagus
+tanya_rekomendasi,cari laptop keren
+tanya_harga,harga laptopnya berapa
+tanya_harga,berapa harga laptop ini
+tanya_harga,harga laptop
+tanya_harga,laptopnya berapaan
+tanya_harga,laptop ini berapaan
+tanya_harga,berapa harga produk
+tanya_harga,berapa harga produk ini
+tanya_harga,berapa harga barang ini
+tanya_harga,berapa harga barangnya
+tanya_harga,harganya berapa ya kak
+tanya_harga,harganya berapa
+tanya_harga,harganya berapa kak
+tanya_harga,harganya berapa min
+tanya_harga,berapa harganya
+tanya_harga,harga
+tanya_harga,berapa harga barang ini
+tanya_harga,kalo harganya berapa kak
+tanya_harga,berapa yang harus saya bayar 
+tanya_harga,harga produk 
+tanya_harga,harga barang 
+tanya_harga,harga yang perlu saya bayar berapa 
+tanya_harga,tanya harga
+tanya_harga,harga untuk produk ini berapa 
+tanya_harga,produk ini berapaan kak 
+tanya_harga,barang ini berapaan ya 
+tanya_harga,brp harganya
+tanya_harga,brp harga laptopnya
+tanya_harga,harganya brp
+tanya_harga,harganya brp kak
+tanya_harga,harganya brp min
+tanya_harga,harganya brp gan
+tanya_harga,harganya brp sis
+tanya_harga,hargany brp
+tanya_harga,harganya berapa
+tanya_harga,laptopnya brp
+tanya_harga,berapa laptopnya
+tanya_harga,brp ni kak harganya
+tanya_harga,brp laptopny
+tanya_harga,produk ini harganya berapa kak
+tanya_harga,laptop ini harganya berapa kak
+tambah_barang,mau dong kak laptopnya 1
+tambah_barang,mau dong kak laptopnya satu
+tambah_barang,mau 1 dong
+tambah_barang,mau satu dong
+tambah_barang,mau satu
+tambah_barang,mau 1
+tambah_barang,aku mau pesan 1
+tambah_barang,aku mau pesan satu
+tambah_barang,aku mau beli satu
+tambah_barang,aku mau beli 1
+tambah_barang,beli 1
+tambah_barang,beli satu ya
+tambah_barang,pesan 1 
+tambah_barang,pesan satu ya
+tambah_barang,pesan satu ya
+tambah_barang,pesan 1 ya
+tambah_barang,saya mau 1 ya
+tambah_barang,pesan satu dong
+tambah_barang,pesan 1 dong
+tambah_barang,beli 1 ya
+tambah_barang,pesan laptop ini 1
+tambah_barang,tambah laptop ini
+tambah_barang,tambah produk ini
+tambah_barang,tambah barang ini
+tambah_barang,tambahkan laptop ini
+tambah_barang,tambahkan produk ini
+tambah_barang,tambahkan barang ini
+tambah_barang,saya keep ya
+tambah_barang,bisa saya simpan dulu 
+tambah_barang,boleh disimpan dulu 
+tambah_barang,boleh di keep dulu 
+tambah_barang,bisa di keep 
+tambah_barang,bisa di keep dulu 
+tambah_barang,keep dulu ya
+tambah_barang,mau keep dong
+tambah_barang,simpen dulu dong
+tambah_barang,simpan dulu ya
+tambah_barang,saya mau simpan laptop ini 
+tambah_barang,simpan laptop ini kak
+tambah_barang,simpan produk ini kak
+tambah_barang,saya mau simpan laptop ini satu
+tambah_barang,saya mau simpan laptop ini 1
+tambah_barang,saya mau simpan laptop ini kak
+tambah_barang,simpan produk ini ya kak
+tambah_barang,disimpan dulu barangnya
+tambah_barang,disimpan dulu produknya
+tambah_barang,disimpan dulu laptopnya
+tambah_barang,aku mau simpan produk ini 1
+terima,Iya
+terima,ya
+terima,y
+terima,yup
+terima,oke
+terima,ok
+terima,boleh
+terima,tentu
+terima,pastinya
+terima,setuju
+terima,ya boleh
+terima,Iyaa
+terima,yess
+terima,yes
+terima,iyaww
+terima,bolehh
+terima,mau
+terima,iya boleh
+terima,mau dong
+terima,mauu
+terima,boleh banget
+terima,blh
+terima,iy
+terima,blh bgt
+terima,iy blh
+terima,okeyy
+terima,okee
+terima,okayy
+terima,setuju
+terima,okay
+terima,okk
+terima,oke mbak
+terima,ok mbk
+terima,iyaa kak
+terima,oke min
+terima,oke mas
+terima,oke bang
+terima,oke bg
+terima,ok kk
+terima,sip kak
+terima,sip min
+terima,sip mbk
+terima,sip mbak
+terima,sip mas
+terima,sip bang
+terima,sip bg
+terima,blh mbak
+terima,boleh mbak
+terima,blh mbk
+terima,sipsip
+terima,iyyyy
+terima,keyy
+terima,okey
+terima,iyah blh bgt
+terima,iyah
+terima,iyh
+terima,okeoke
+terima,okok
+terima,sip 
+terima,iya silahkan
+terima,boleh si
+terima,"ohh, gas kak"
+terima,boleh min
+terima,blh min
+terima,blh kak
+terima,mw
+terima,boleh gan
+terima,gas gan
+terima,gas kak
+terima,gassss
+terima,gass
+terima,gas min
+terima,iya setuju
+terima,setujuu
+terima,saya setuju
+terima,silahkan
+terima,sippp
+terima,yupp
+terima,boleh kak
+terima,boleh min
+terima,boleh mas
+terima,baik kak
+terima,baik 
+terima,boleh gan
+terima,iyaa min
+terima,iyaa gan
+terima,iyaa sis
+terima,iyaa bang
+terima,iya bg
+terima,iy kk
+terima,iy sis
+terima,iy gan
+terima,iy min
+terima,iy bg
+terima,boleh
+terima,iyaaaaaa
+terima,iyh blh
+terima,ya mau
+terima,ya saya mau
+terima,iya aku mau
+terima,boljug
+terima,yaaaaa
+terima,boleh bagus
+terima,iya boleh kak
+terima,iya boleh min
+terima,iya boleh gan
+terima,oh boleh kak
+terima,oh boleh min
+terima,oh boleh gan
+terima,ohh bolehh kak
+terima,ohh bolehh
+terima,iy blh 
+terima,iy blh kk
+terima,iy blhh
+terima,iyaa bolehh
+terima,boleh sih
+terima,boleh sii
+terima,bolehhhh
+terima,iya boleh sih
+terima,iya boleh sii
+terima,bolee
+terima,bolehh sii
+terima,iy mw 
+terima,iya mw
+terima,udah
+terima,udah kak
+terima,ada
+terima,uda
+terima,sudah
+terima,sudahh
+terima,udahh
+terima,udah ka
+terima,udaa
+terima,udh
+terima,udhh
+terima,udahh
+terima,udah ada
+terima,udh ad kak
+terima,adaa kak
+terima,adaa
+terima,ad
+terima,udaaah
+terima,dem
+terima,udaaaaa
+terima,demm
+terima,dah ada
+terima,udahhh
+terima,sudah kak
+terima,ohh udah kak
+terima,udah dong
+terima,dah ada kak
+terima,sudem
+terima,udah gan
+terima,udaah
+terima,udaahh
+terima,udaaahhh
+terima,udaaa
+tolak,tidak
+tolak,tdk
+tolak,ga
+tolak,gak
+tolak,ngga
+tolak,nggak
+tolak,g
+tolak,engga
+tolak,enggak
+tolak,jangan
+tolak,belum
+tolak,ga mau
+tolak,g mau
+tolak,gak mau
+tolak,ngga mau
+tolak,sorry ngga
+tolak,sorry ga dulu
+tolak,sorry ngga dulu
+tolak,sorry engga
+tolak,sorry ga mau
+tolak,sorii ngga
+tolak,sorii ga
+tolak,maaf tidak
+tolak,maaf ngga
+tolak,maaf ga
+tolak,bukan
+tolak,ga dulu
+tolak,g dulu
+tolak,g dlu
+tolak,saya tidak mau
+tolak,gamau
+tolak,ga kak
+tolak,g kak
+tolak,ngga kak
+tolak,aku gamau
+tolak,ak gamau
+tolak,gamau kak
+tolak,gaaaaa
+tolak,gaakkk
+tolak,nggaaaa
+tolak,tidakkk
+tolak,gamau kak
+tolak,gaaaaa
+tolak,gaakkk
+tolak,nggaaaa
+tolak,tidakkk
+tolak,belom
+tolak,blm
+tolak,belumm
+tolak,ga ada
+tolak,gx
+tolak,belom gan
+tolak,blmm
+tolak,ga ada kak
+tolak,belomm
+tolak,belum ada
+tolak,belom kak
+tolak,blm kak
+tolak,blm ada
+tolak,belum dong
+tolak,belum kak
+tolak,beyum
+tolak,blm gan
+tolak,belum ni
+tolak,belumm kak
+tolak,belomm
+tolak,belummmm
+tolak,belum lah
+tolak,belum si
+tolak,tidak ada
+tolak,tdk ada
+tolak,ga ad
+tolak,belum nich
+tolak,belomm ka
+tolak,ga ada ni
+tolak,blmm kak
+tolak,ngga ada
+tolak,gak ada
+tolak,gx ada
+tolak,nggak ada kak
+tolak,belums
+tolak,beloms
+tolak,gx ad
+tolak,belom ada
+tolak,gak ad
+tolak,dak ado
+tolak,dkdo
+tolak,dak
+tolak,katek
+tolak,tek
+tolak,ktk
+tolak,blmm
+tolak,dkd
+tolak,dak katek
+tolak,dkdoo
+tolak,beloms kak
+tolak,blmmm
+tolak,belummm
+tolak,belm
+tolak,belomz
+tolak,belomm
+tolak,belumz
+tolak,belommm
+tolak,belommzz
+tolak,belumzz
+tolak,blmzz
+tanya_deskripsi,deskripsi laptop ini
+tanya_deskripsi,sepesifikasi laptop
+tanya_deskripsi,spesifikasi laptop ini apa 
+tanya_deskripsi,deskripsi produk ini
+tanya_deskripsi,deskripsi 
+tanya_deskripsi,spesifikasinya apa ya 
+tanya_deskripsi,spefikasinya gimana
+tanya_deskripsi,bagaimana cara lihat deskripsi produk 
+tanya_deskripsi,bagaimana cara lihat deskripsi produk 
+tanya_deskripsi,speknya apa
+tanya_deskripsi,cara lihat deskripsi 
+tanya_deskripsi,deskripnya gimana
+tanya_deskripsi,desk produk
+tanya_deskripsi,penjelasan produk
+tanya_deskripsi,deskripsi barang
+tanya_deskripsi,penjelasan barang
+tanya_deskripsi,spek barang
+tanya_deskripsi,spek produk
+tanya_deskripsi,jelasin produknya dong kak
+tanya_deskripsi,jelasin barangnya dong kak
+tanya_deskripsi,jelasin produknya dong
+tanya_deskripsi,jelasin barangnya dong
+tanya_deskripsi,kelebihan produk apa
+tanya_deskripsi,apa kelebihan produk
+tanya_deskripsi,boleh jelaskan produknya  
+tanya_deskripsi,boleh jelasin produk
+tanya_deskripsi,laptop apa ini 
+tanya_deskripsi,Ini laptop apa ya 
+tanya_deskripsi,detail laptop
+tanya_deskripsi,detail produk
+tanya_deskripsi,detail barang
+tanya_deskripsi,apa deskripsi produk
+tanya_deskripsi,desk laptop
+tanya_deskripsi,desk barang
+tanya_deskripsi,penjelasan laptop
+tanya_deskripsi,penjelasan laptopnya kak
+tanya_deskripsi,lihat detail produk
+tanya_deskripsi,liat detail produk
+tanya_deskripsi,saya mau lihat deskripsi produk
+tanya_deskripsi,saya mo lihat deskripsi produk
+tanya_deskripsi,saya mau lihat penjelasan produk
+tanya_deskripsi,saya mo lihat penjelasan produk
+tanya_deskripsi,jelasin tentang produk ini kak
+tanya_deskripsi,jelasin tentang laptop ini kak
+register,saya mau bikin akun
+register,saya mau bikin akun kak
+register,saya mau bikin akun min
+register,saya mau register
+register,saya mau register kak
+register,saya mau register min
+register,saya mau daftar akun
+register,bagaimana cara register 
+register,bagaimana cara daftar 
+register,cara buat akun 
+register,bagaimana daftar akun 
+register,daftarnya gimana
+register,mau daftar
+register,mo daftar
+register,aku mau bikin akun
+register,bagaimana cara daftar akun 
+register,cara daftarnya gimana
+register,cara bikin akun gimana ya 
+register,cara daftar akun gimana ya 
+register,gimana cara daftarnya 
+register,gimana cara daftar akun 
+register,gimana cara bikin akun 
+register,gimana cara buat akun
+register,cara daftar akun
+register,cara bikin akun
+register,ak mw dftr
+register,ak mau daftar akun
+register,aku mau daftar akun
+register,gmn cara daftar akun
+register,gmn cara bikin akun
+register,saya mau regis
+register,mau regis dong
+register,cara regis
+register,regis
+register,mau bikin akun
+register,daftar akun
+register,bikin akun
+register,mau regis
+register,buat akun
+register,sign up
+register,signup
+register,saya mau sign up
+register,saya mau signup
+register,aku mau sign up
+terimakasih,terimakasih
+terimakasih,terima kasih
+terimakasih,thank you
+terimakasih,thanks
+terimakasih,tengs
+terimakasih,tq
+terimakasih,makasih
+terimakasih,makasi
+terimakasih,makasii
+terimakasih,mksh
+terimakasih,trims
+terimakasih,ty
+terimakasih,tengkyu
+terimakasih,thx
+terimakasih,makasi kak
+terimakasih,makasi min
+terimakasih,makasi bg
+terimakasih,makasi bang
+terimakasih,makasi ya
+terimakasih,makasi yy
+terimakasih,makasi banyak
+terimakasih,makasi banyak kak
+terimakasih,makasih banyak min
+terimakasih,ty kak
+terimakasih,arigatou
+terimakasih,thx y
+terimakasih,makasi mbak
+terimakasih,makasi mbk
+terimakasih,makasi mba
+terimakasih,makasi mas
+terimakasih,maacii
+terimakasih,maaciiw
+terimakasih,makaci
+terimakasih,tks
+terimakasih,syukron
+terimakasih,ty min
+terimakasih,tq min
+terimakasih,tq kak
+terimakasih,makasi banget
+terimakasih,makasi bgt
+terimakasih,makasi begete
+terimakasih,makasi byk bro
+terimakasih,makasi byk kak
+terimakasih,makasi weh
+terimakasih,makasi lohh
+terimakasih,terimakasih banyak
+terimakasih,terimakasih byk
+terimakasih,terima kasih banyak
+terimakasih,terima kasih byk
+terimakasih,makasi kak semoga makin laris
+terimakasih,makasihh
+terimakasih,terima kasih semoga berkah ya
+terimakasih,mkasih
+terimakasih,makasih banyak loh kak
+terimakasih,waw tengkyuu kak
+terimakasih,tengkyu ya
+terimakasih,thanks kak produknya bagus banget
+terimakasih,kerenn makasi kak
+terimakasih,"ty kak, semoga awet"
+terimakasih,wah makasi yy
+terimakasih,"mantapp, tengkyu min"
+terimakasih,makasih banyak ya kak
+terimakasih,makasihh banyak kak
+terimakasih,okee makasihh
+terimakasih,okeoke makasih
+terimakasih,baik terima kasih
+terimakasih,baik terimakasih
+terimakasih,oke terimakasih
+terimakasih,oke terima kasih
+terimakasih,ok mksh
+terimakasih,ok tq
+terimakasih,ok thx
+tanya_stok,ready 
+tanya_stok,apakah produk ready 
+tanya_stok,apakah produk masih ada 
+tanya_stok,apakah produk tersedia 
+tanya_stok,stoknya ada min 
+tanya_stok,masih ada ga 
+tanya_stok,ready gan 
+tanya_stok,hai barang ini ready ga 
+tanya_stok,apakah produk masih tersedia 
+tanya_stok,barangnya ready ga 
+tanya_stok,barangnya ready ga kak 
+tanya_stok,barangnya ready ga min 
+tanya_stok,laptop ini masih tersedia 
+tanya_stok,laptopnya masih ada ga 
+tanya_stok,stok laptop ini ada 
+tanya_stok,produk ini stoknya masih berapa 
+tanya_stok,laptop ini stoknya masih berapa 
+tanya_stok,laptop ini tinggal berapa 
+tanya_stok,produk ini tinggal berapa 
+tanya_stok,produk ini tersisa berapa 
+tanya_stok,masih tersisa berapa produk ini 
+tanya_stok,laptop ini masih tersisa berapa 
+tanya_stok,stoknya masih berapa 
+tanya_stok,apakah stok masih ada 
+tanya_stok,stoknya tinggal berapa 
+tanya_stok,boleh tanya stok 
+tanya_stok,mau tanya stok dong
+tanya_stok,sisa berapa ya
+tanya_stok,tinggal berapa ya 
+tanya_stok,stoknya masih banyak ga 
+tanya_stok,stoknya masih banyak 
+tanya_stok,sisa berapa
+tanya_stok,boleh nanya stok 
+tanya_stok,tanya stok boleh 
+tanya_stok,mau nanya stok
+tanya_stok,stoknya sisa berapa
+tanya_stok,stok tinggal berapa
+tanya_stok,apakah laptopnya masih banyak 
+tanya_stok,laptopnya tinggal berapa 
+tanya_stok,produknya tinggal berapa 
+tanya_stok,produknya tersisa berapa 
+tanya_stok,produk ini ready ga ya
+tanya_stok,produk ini masi ada ga
+tanya_stok,"barangnya ready ga ni, aku mau checkout"
+tanya_stok,laptop ini ready ga
+tanya_stok,stok produk ini ready ga kak
+tanya_stok,produknya ready stok ga
+tanya_stok,laptop jenis ini stoknya ada
+tanya_stok,brp stokny
+tanya_stok,brp stoknya
+tanya_stok,berapa stoknya
+tanya_stok,stoknya ada
+tanya_stok,masih ad ga
+tanya_stok,masih ad gak
+tanya_stok,ready ga ya
+tanya_stok,ready ga
+tanya_stok,ready g
+tanya_stok,permisi barangnya ready ga ya
+tanya_stok,untuk laptop ini sisa berapa ya
+tanya_stok,untuk laptop ini sisa berapa
+tanya_stok,untuk laptop ini sisa brp
+login,login
+login,log in
+login,masuk akun
+login,login 
+login,log in 
+login,saya mau login
+login,saya mau log in
+login,bagaimana cara login
+login,bagaimana cara log in
+login,mau login
+login,mau log in
+login,login bisa 
+login,bisa login 
+login,log in bisa 
+login,bisa log in 
+login,gimana cara login 
+login,gimana cara log in 
+login,cara login gimana 
+login,cara log in gimana 
+login,mo login dong
+login,mo log in dong
+login,saya sudah punya akun
+login,dah punya akun
+login,Udah punya akun
+login,cara masuk akun gimana 
+login,bagaimana cara masuk akun 
+login,bisa login disini 
+login,bisa log in disini
+login,signin
+login,sign in
+login,saya mau sign in
+login,mau sign in kak
+login,saya mau signin
+login,mau signin kak
+login,mau sign in
