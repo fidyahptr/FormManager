@@ -1,5 +1,5 @@
 import re
-from dialog_manager.form.get_entitas import *
+from dialog_manager.form.get_entitas import NER
 from datetime import datetime
 
 class Checkout:
@@ -26,10 +26,9 @@ class Checkout:
     def __init__(self):
         pass
     
-  
     def checkout(self, data):
         # get entitas (just merk&tipe) cannot jumlah
-        result = get_entitas(data)
+        result = NER().get_entitas(data)
         print('form ' + str(result))
         # result = NER().entity_recognition(data)
         self.slot_checkout['response'] = None
@@ -44,27 +43,29 @@ class Checkout:
             # cek apakah merk tipe match
             print(len(result['tipe']))
             if len(result['tipe']) <= 1:
-                match = check_match()
+                print("ga multiple")
+                match = NER().check_match()
                 # jika match, do slot filling
                 if match == 'match':
                     self.slot_checkout['merk'] = result['merk'][0]
                     self.slot_checkout['tipe'] = result['tipe'][0][0]
                 # jika tdk match, tdk dilakukan slot filling
                 else:
-                    self.slot_checkout['response'] = "Maaf, merk / tipe tidak cocok. <br> Berikut tipe laptop dari merk " + \
+                    self.slot_checkout['response'] = "Maaf, merk dan tipe tidak cocok. <br> Berikut tipe laptop dari merk " + \
                         str(result['merk'][0] + ' : ' +
-                            str(get_tipe(result['merk'][0])))
+                            str(NER().get_tipe(result['merk'][0])))
                     # hapus result dan dis
                     del result
                     self.slot_checkout['merk'] = None
                     self.slot_checkout['tipe'] = None
-                    remove_merktipe()
+                    NER().remove_merktipe()
             else:
+                print(result['tipe'])
                 self.slot_checkout['multiple'] = result['tipe']
                 # hapus result dan dis
                 result['tipe'] = None
                 self.slot_checkout['tipe'] = None
-                remove_tipe()
+                NER().remove_tipe()
         # jika entitas hanya merk
         elif result['merk']:
             if result['tipe']:
@@ -75,16 +76,22 @@ class Checkout:
                 self.slot_checkout['merk'] = result['merk'][0]
                 self.slot_checkout['response'] = "Berikut tipe laptop dari merk " + \
                     str(result['merk'][0] + ' : ' +
-                        str(get_tipe(result['merk'][0])))
+                        str(NER().get_tipe(result['merk'][0])))
         # jika entitas hanya tipe
+        elif len(result['tipe']) > 1:
+            self.slot_checkout['multiple'] = result['tipe']
+            # hapus result dan dis
+            result['tipe'] = None
+            self.slot_checkout['tipe'] = None
+            NER().remove_tipe()
         elif result['tipe']:
             # slot filling
             self.slot_checkout['tipe'] = result['tipe'][0][0]
         # jika tdk terdeteksi entitas
         else:
-            self.slot_checkout['response'] = 'Maaf, merk/tipe tidak tersedia.'
+            self.slot_checkout['response'] = 'Maaf, merk tidak tersedia.'
             self.slot_checkout['response'] += '<br>Berikut daftar seluruh merk laptop yang tersedia : '
-            self.slot_checkout['response'] += str(get_all_merk())
+            self.slot_checkout['response'] += str(NER().get_all_merk())
 
         return self.slot_checkout
 

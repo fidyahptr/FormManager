@@ -9,6 +9,7 @@ class Register():
     
     def __init__(self):
         pass
+    
     # regex
     format = re.compile(r'\[.*?\]')
     email_regex = re.compile(

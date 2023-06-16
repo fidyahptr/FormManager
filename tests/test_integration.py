@@ -1,7 +1,7 @@
 from dialog_manager.form.login import Login
 from dialog_manager.form.register import Register
 from dialog_manager.form.checkout import Checkout
-from dialog_manager.form.get_entitas import *
+from dialog_manager.form.get_entitas import NER
 from datetime import datetime
 
 class TestSlotFrameBased:
@@ -96,7 +96,7 @@ class TestSlotFrameBased:
         
         # Arrange
         self.checkout.delete_slot_checkout()
-        remove_merktipe()
+        NER().remove_merktipe()
         text = "saya mau beli laptop axioo"
         tanggal = datetime.today().strftime('%Y-%m-%d')
         
@@ -104,13 +104,13 @@ class TestSlotFrameBased:
         slot = self.checkout.checkout(text)
 
         # Assert
-        assert slot == {'merk': None, 'tipe': None, 'jumlah': None, 'tanggal': tanggal, 'response': 'Maaf, merk/tipe tidak tersedia.<br>Berikut daftar seluruh merk laptop yang tersedia : <ul class="list-disc list-outside ml-5"><li>Lenovo</li><li>Asus</li><li>Microsoft</li><li>Dell</li><li>Hp</li><li>Acer</li><li>Apple</li><li>Xiaomi</li><li>Msi</li><li>Infinix</li><li>Samsung</li></ul>', 'multiple': None}
+        assert slot == {'merk': None, 'tipe': None, 'jumlah': None, 'tanggal': tanggal, 'response': 'Maaf, merk tidak tersedia.<br>Berikut daftar seluruh merk laptop yang tersedia : <ul class="list-disc list-outside ml-5"><li>Lenovo</li><li>Asus</li><li>Microsoft</li><li>Dell</li><li>Hp</li><li>Acer</li><li>Apple</li><li>Xiaomi</li><li>Msi</li><li>Infinix</li><li>Samsung</li></ul>', 'multiple': None}
         
     def test_slot_checkout_multiple_tipe(self):
         
         # Arrange
         self.checkout.delete_slot_checkout()
-        remove_merktipe()
+        NER().remove_merktipe()
         text = "saya mau beli laptop asus rog"
         tanggal = datetime.today().strftime('%Y-%m-%d')
         

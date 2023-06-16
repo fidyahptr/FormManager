@@ -9,7 +9,7 @@ from config import mysql
 from dialog_manager.form.login import Login
 from dialog_manager.form.register import Register
 from dialog_manager.form.checkout import Checkout
-from dialog_manager.form.get_entitas import *
+from dialog_manager.form.get_entitas import NER
 from logger.loggger_chat import log_user_input
 import pymysql
 
@@ -45,6 +45,7 @@ class Chatbot():
             # save user response
             chat_history.append(('user', user_resp))
             self.__temp_text.append(('user', user_resp))
+            
             # detect intent
             if self.__bool_check:
                 self.__intent = IntentDetection().prediction(user_resp)
@@ -127,7 +128,7 @@ class Chatbot():
                 if self.__chat_opening_index2 == 0 and self.__check_checkout and self.__email == None:
                     chat_opening = "Baik, sebelum Anda dapat melakukan pemesanan produk, Anda harus login terlebih dahulu."
                     chat_history.append(('bot', chat_opening)) 
-                    chat_history.append(('bot', "Apakah Anda sudah memiliki akun?"))
+                    chat_history.append(('bot', "Apakah Anda sudah memiliki akun yang terdaftar di website kami?"))
                     self.__chat_opening_index2+=1
                 elif self.__check_regis and self.__email == None:
                     print('cek regis')
@@ -170,7 +171,7 @@ class Chatbot():
                             chat_history.append(('bot', nota))
                             chat_history.append(('bot', 'Terima kasih telah melakukan pemesanan di toko kami:)'))
                             Checkout().delete_slot_checkout()
-                            remove_merktipe()
+                            NER().remove_merktipe()
                             # reset
                             self.__bool_check = True
                             self.__chat_opening_index = 0
@@ -190,7 +191,23 @@ class Chatbot():
             elif self.__intent == 3:
                 chat_history.append(('bot', "Halo kak"))
                 chat_history.append(('bot', "Ada yang bisa chippy bantu?"))
-                
+            
+            elif self.__intent == 8:
+                chat_history.append(('bot', "Maaf, saya tidak dapat memberikan rekomendasi laptop :("))
+                chat_history.append(('bot', "Chippy hanya dapat membantu Anda melakukan pembelian laptop"))
+            
+            elif self.__intent == 5:
+                chat_history.append(('bot', "Maaf, untuk deskripsi produk belum tersedia ya kak"))
+                chat_history.append(('bot', "Chippy hanya dapat membantu Anda melakukan pembelian laptop"))
+               
+            elif self.__intent == 6:
+                chat_history.append(('bot', "Maaf, untuk harga produk belum tersedia ya kak"))
+                chat_history.append(('bot', "Chippy hanya dapat membantu Anda melakukan pembelian laptop"))
+            
+            elif self.__intent == 9:
+                chat_history.append(('bot', "Maaf, saya tidak dapat memberikan stok produk"))
+                chat_history.append(('bot', "Chippy hanya dapat membantu Anda melakukan pembelian laptop"))
+               
             elif self.__intent == 2:
                 chat_history.append(('bot', "Terima kasih telah mengunjungi toko kami"))
                 
@@ -198,7 +215,7 @@ class Chatbot():
                 chat_history.append(('bot', "Sama-sama kak"))
                 
             else:
-                chat_history.append(('bot', "Maaf, saya tidak mengerti"))
+                chat_history.append(('bot', "Maaf, Chippy hanya dapat membantu Anda melakukan pembelian laptop"))
             
             log_user_input(chat_history)
             return render_template('result.html', chat_history=chat_history)
@@ -246,6 +263,7 @@ class Chatbot():
                     chat_history.append(('bot', 'Silakan login ulang dengan memasukkan format berikut: [email][password]'))
             elif res['response']:
                 chat_history.append(('bot', res['response']))
+                chat_history.append(('bot', 'Silakan login ulang dengan memasukkan format berikut: [email][password]'))
             else:
                 response = 'Email/pass tidak valid!'
                 chat_history.append(('bot', response))
@@ -314,6 +332,7 @@ class Chatbot():
                     print(res)
             elif res['response']:
                 chat_history.append(('bot', res['response']))
+                chat_history.append(('bot', 'Silakan registrasi ulang dengan memasukkan format berikut: [nama][email][password]'))
             else:
                 response = 'Email/pass tidak valid!'
                 chat_history.append(('bot', response))

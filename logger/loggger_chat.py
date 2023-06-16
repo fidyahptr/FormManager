@@ -16,7 +16,7 @@ file_handler.setFormatter(formatter)
 # tambahkan handler ke logger
 logger.addHandler(file_handler)
 
-# as per recommendation from @freylis, compile once only
+# as per recommendation compile once only
 CLEANR = re.compile('<.*?>')
 
 def cleanhtml(raw_html):
